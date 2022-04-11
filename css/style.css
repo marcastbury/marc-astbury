@@ -15,7 +15,8 @@ h2 {
 
 h3 {
     color:hsl(0 0% 93.0%);
-    font-family: 'Lusitana', serif; 
+    font-family: 'Lusitana', serif;
+    font-size: 1.5rem; 
 }
 
 label {
