@@ -40,6 +40,7 @@ li {
     color: #e0e0e0;
     font-family: 'Lusitana', serif; 
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 li .links {
@@ -65,12 +66,13 @@ p {
 
 .left-nav {
     display: inline-block;
-    font-size: 190%;
+    font-size: 2rem;
 }
 
 .right-nav .current{
     text-decoration: overline;
     color: seashell;
+    font-size: 1.2rem;
  }
 
 .logo {
