@@ -69,6 +69,7 @@ p {
 
 .right-nav .current{
     text-decoration: overline;
+    color: seashell;
  }
 
 .logo {
