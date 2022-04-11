@@ -42,6 +42,10 @@ li {
     text-decoration: none;
 }
 
+li .links {
+    color: seashell;
+}
+
 p {
     color: #a0a0a0;
     font-family: 'Lusitana', serif; 
@@ -102,7 +106,7 @@ p {
     box-shadow:0 0 1px #333;
  }
 
- 
+
 a:link, a:visited {
     text-decoration: none;
     color: seashell;
