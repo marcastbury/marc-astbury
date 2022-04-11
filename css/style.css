@@ -316,13 +316,19 @@ a:visited {
     border-radius: 4px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 2000px) {
     .gallery {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
     .gallery {
         grid-template-columns: repeat(1, 1fr);
     }
