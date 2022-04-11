@@ -297,7 +297,7 @@ a:visited {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     /*grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));*/
     /*grid-template-rows: repeat(8, 6vw);*/
     grid-gap: 20px;
@@ -317,21 +317,15 @@ a:visited {
     border-radius: 4px;
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1300px) and (max-width: 2000px) {
     .gallery {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media (max-width: 800px) {
+@media (min-width: 1000px) and (max-width: 1300px) {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .gallery {
-        grid-template-columns: repeat(1, 1fr);
     }
 }
 
