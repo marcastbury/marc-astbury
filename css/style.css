@@ -1,6 +1,6 @@
 body {
     background: hsl(0 0% 8.5%);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lusitana', serif; 
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 10%;
@@ -47,14 +47,14 @@ textarea {
 }
 
 li { 
-    color: #e0e0e0;
+    color: #ededed;
     font-family: 'Lusitana', serif; 
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 li .links {
-    color: #e0e0e0;
+    color: #ededed;
 }
 
 p {
@@ -62,6 +62,12 @@ p {
     font-family: 'Lusitana', serif; 
     font-size: 1rem;
     line-height: 1.5rem;
+}
+
+p.img__description {
+    color: #ededed;
+    font-size: 0.8rem;
+    font-style: italic;
 }
 
 i {
