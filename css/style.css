@@ -54,9 +54,10 @@ li {
     line-height: 1.2rem;
 }
 
-li .projects {
+.projects {
     color: #ededed;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 p {
