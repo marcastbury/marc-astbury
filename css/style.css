@@ -64,6 +64,13 @@ p {
     line-height: 1.5rem;
 }
 
+i {
+    color: #a0a0a0;
+    font-family: 'Lusitana', serif; 
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
 /* Navigation Rules*/
 .main-nav {
     display: flex;
