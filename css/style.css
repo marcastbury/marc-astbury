@@ -101,7 +101,7 @@ i {
 
 .right-nav .current{
     text-decoration: overline;
-    color: seashell;
+    color: #ededed;
  }
 
 .logo {
@@ -142,7 +142,7 @@ i {
 
 a:link, a:visited {
     text-decoration: none;
-    color: seashell;
+    color: #ededed;
   }
   
 
@@ -424,7 +424,7 @@ a:visited {
 #footer-list li {
     display: inline-block;
 
-    color: seashell;
+    color: #ededed;
     font-size: 1rem;
 
     padding: 10px 20px;
