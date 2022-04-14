@@ -166,10 +166,10 @@ a:visited {
 }
 
 
-.header {
+/*.header {
     display:flex;
     flex-grow: 1;
-}
+}*/
 
 .caption {
     font-size: 60%;
