@@ -93,6 +93,10 @@ i {
     font-size: 2rem;
 }
 
+.right-nav {
+    font-size: 1.2rem;
+}
+
 .right-nav .current{
     text-decoration: overline;
     color: seashell;
@@ -401,7 +405,7 @@ a:visited {
 }
 */
 
-.footer {
+/*.footer {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -415,13 +419,12 @@ a:visited {
     min-height: 60px;
     padding: 12px;
   }
-
+*/
 #footer-list li {
-    display: inline-flex;
-    align-items: center;
+    display: inline-block;
 
     color: seashell;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
     padding: 10px 20px;
     margin: 0px 30px;
