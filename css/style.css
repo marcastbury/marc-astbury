@@ -479,3 +479,9 @@ a:visited {
   input[type=submit]:hover {
     background-color: #33c08c;
   }
+
+  hr.footer_break {
+    border-top: 1px solid rgb(238, 238, 238);
+    width: 40vw;
+    margin: 12px 0px;
+  }
