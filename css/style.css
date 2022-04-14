@@ -16,6 +16,10 @@ body {
   }
 }
 
+h1 {
+    font-size: 2.4rem;
+  }
+
 h2 {
     color: hsl(0 0% 93.0%);
     font-family: 'Lusitana', serif; 
