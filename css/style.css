@@ -104,8 +104,9 @@ body.light li a:visited {
 	color: #333;
 }
 
-body.light li a#email {
-	color: #333;
+.light #email {
+    color: #333;
+   text-decoration: none;
 }
 
 h2 {
