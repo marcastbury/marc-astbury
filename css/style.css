@@ -113,6 +113,10 @@ body.light li a:visited {
    text-decoration: none;
 }
 
+body.light .blog-layout-item {
+    background-color: #f2f2f2;
+}
+
 h2 {
     color: hsl(0 0% 93.0%);
     font-family: 'inter', sans-serif;
