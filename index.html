@@ -19,6 +19,13 @@
                 </li>
                 <li class="links"><a href="blog">Blog</a>
                 </li>
+                <div class="top">
+                    <input type="checkbox" class="checkbox" id="checkbox" />
+                    <label for="checkbox" class="label">
+                        <i></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
             </div>
         </ul>
     </nav>
@@ -26,6 +33,12 @@
 </head>
 
 <body>
+    <script>const checkbox = document.getElementById('checkbox');
+
+        checkbox.addEventListener('change', () => {
+            // change theme
+            document.body.classList.toggle('light');
+        });</script>
     <div class="header">
         <h1 class="title">Marc Astbury</h1>
         <P>Welcome to my website, I am learning UX, HTML/CSS, and Chinese.</P>

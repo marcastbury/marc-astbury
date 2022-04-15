@@ -5,6 +5,7 @@ body {
     margin-right: 15%;
     margin-bottom: 10%;
     margin-top: 10%;
+    transition: background 0.4s ease-in;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,6 +25,80 @@ body {
       margin-top: 5%;
     }
   }
+
+  body.light {
+	background: #fafafa;
+}
+
+/*light mode toggle*/
+
+div.top {
+	display: inline-block;
+	padding: 8px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #606060;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 11px;
+	width: 35px;
+	transform: scale(1);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 17px;
+	width: 17px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+/* light mode text styles*/
+body.light h2 {
+    color: #333;
+}
+
+
+body.light h3 {
+    color: #333;
+}
+
+body.light .title {
+    color: #333;
+}
+
+body.light p {
+    color: #333;
+}
+
+body.light li {
+	color: #333;
+}
+
+body.light li a:visited {
+	color: #333;
+}
 
 h2 {
     color: hsl(0 0% 93.0%);
