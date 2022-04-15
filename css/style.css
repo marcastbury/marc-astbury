@@ -96,6 +96,10 @@ body.light li {
 	color: #333;
 }
 
+body.light li a:link {
+	color: #333;
+}
+
 body.light li a:visited {
 	color: #333;
 }
