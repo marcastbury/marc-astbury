@@ -200,7 +200,7 @@ i {
 
 
 .right-nav .current{
-    text-decoration: overline;
+    text-decoration: underline;
     color: #ededed;
  }
 
