@@ -282,9 +282,9 @@ a:visited {
 
 .blog-layout-item {
     padding: 24px 32px 12px 32px;
-
     background-color:rgb(32, 32, 32);
     border-radius: 12px;
+    transition: 0.4s ease-in-out;
 }
 
 /*
