@@ -38,7 +38,14 @@ h2 {
 h3 {
     color:hsl(0 0% 93.0%);
     font-family: 'inter', sans-serif;
-    font-size: 1.5rem; 
+    font-weight: 400;
+    font-size: 1.3rem; 
+}
+
+.title {
+    color: hsl(0 0% 93.0%);
+    font-weight: 500;
+    font-family: 'inter', sans-serif;
 }
 
 label {
@@ -162,13 +169,6 @@ button:hover {
     transform: rotate(7deg);
 }
 
-
-.title {
-    color: hsl(0 0% 93.0%);
-
-    font-family: 'Lusitana', serif; 
-}
-
 a:visited {
     color: #e0e0e0
 }
@@ -176,7 +176,7 @@ a:visited {
 .caption {
     font-size: 60%;
     font-style: italic;
-    color: rgb(243, 243, 243);
+    color: rgb(214, 214, 214);
 
     font-family: 'Lusitana', serif; 
 }
