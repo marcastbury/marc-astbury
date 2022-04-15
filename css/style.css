@@ -88,6 +88,10 @@ body.light .title {
     color: #333;
 }
 
+body.light .caption {
+    color: #333;
+}
+
 body.light p {
     color: #333;
 }
