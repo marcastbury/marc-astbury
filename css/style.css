@@ -454,7 +454,7 @@ a:visited {
     transition: max-height 0.2s ease-out;
   }
   .accordion-item-body-content {
-    padding: 1rem;
+    padding: 0rem 1rem;
     line-height: 1.5rem;
    /* border-top: 1px solid;
     border-image: linear-gradient(to right, transparent, #525252, transparent) 1;*/
