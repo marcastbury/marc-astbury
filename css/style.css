@@ -79,7 +79,6 @@ body.light h2 {
     color: #333;
 }
 
-
 body.light h3 {
     color: #333;
 }
@@ -421,11 +420,10 @@ a:visited {
   }
 
   .accordion-item {
-    background-color: #f2f2f2;
-    color: rgb(58, 57, 57);
+    background-color: #f2f2f211;
     margin: 1rem 0;
     border-radius: 0.5rem;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   }
   .accordion-item-header {
     padding: 0.5rem 3rem 0.5rem 1rem;
@@ -439,13 +437,17 @@ a:visited {
   }
   .accordion-item-header::after {
     content: "\002B";
+    color: rgb(240, 208, 150);
     font-size: 2rem;
     position: absolute;
     right: 1rem;
+    transition: transform 0.2s ease-in-out;
   }
   .accordion-item-header.active::after {
-    content: "\2212";
+    content: "\002B";
+    transform: rotate(45deg);
   }
+
   .accordion-item-body {
     max-height: 0;
     overflow: hidden;
