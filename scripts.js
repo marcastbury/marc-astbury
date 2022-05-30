@@ -5,9 +5,9 @@ checkbox.addEventListener('change', () => {
     document.body.classList.toggle('light');
 });
 
-//Accordian//
+//Accordion//
 
-/*const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
 
 accordionItemHeaders.forEach(accordionItemHeader => {
     accordionItemHeader.addEventListener("click", event => {
@@ -21,7 +21,9 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         }
     });
 });
-*/
+
+//Accordion 2//
+
 
 var acc = document.getElementsByClassName("accordion");
 var i;
