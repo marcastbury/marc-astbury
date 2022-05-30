@@ -24,6 +24,7 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 
 //Accordion 2//
 
+/*
 
 var acc = document.getElementsByClassName("accordion");
 var i;
