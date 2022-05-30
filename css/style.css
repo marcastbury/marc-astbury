@@ -421,7 +421,7 @@ a:visited {
   }
 
   .accordion-item {
-    /*background-color: #fff;*/
+    background-color: #f2f2f2;
     color: rgb(58, 57, 57);
     margin: 1rem 0;
     border-radius: 0.5rem;
@@ -455,7 +455,7 @@ a:visited {
     padding: 1rem;
     line-height: 1.5rem;
     border-top: 1px solid;
-    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    /*border-image: linear-gradient(to right, transparent, #525252, transparent) 1;*/
   }
   
   @media(max-width:767px) {
