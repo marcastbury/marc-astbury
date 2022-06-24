@@ -131,19 +131,24 @@ h3 {
 }
 
 .funky {
-  background: -webkit-linear-gradient(#f9c58d 50%, #f492f0 100%););
+  background: -webkit-linear-gradient(45deg,
+  #B47EB3 30%, 
+  #F47731 50%, 
+  #4FAAB6 50%, 
+  #F9D14E 70%, 
+  #4F9045 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .bluefunky {
-  background: -webkit-linear-gradient(#00d2ff 5%, #3a47d5 100%);
+  background: -webkit-linear-gradient(45deg, #00d2ff 5%, #3a47d5 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .redfunky {
-  background: -webkit-linear-gradient(#d4acfb 50%, #b84fce 100%);
+  background: -webkit-linear-gradient(45deg, #d4acfb 50%, #b84fce 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
