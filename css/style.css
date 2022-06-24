@@ -130,6 +130,24 @@ h3 {
     font-size: 1.3rem; 
 }
 
+.funky {
+  background: -webkit-linear-gradient(#f9c58d 50%, #f492f0 100%););
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bluefunky {
+  background: -webkit-linear-gradient(#00d2ff 5%, #3a47d5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.redfunky {
+  background: -webkit-linear-gradient(#d4acfb 50%, #b84fce 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .title {
     color: hsl(0 0% 93.0%);
     font-size: 2.4rem;
@@ -224,6 +242,8 @@ i {
     padding: 8px;
     justify-content: space-between;
 }
+
+
 
 
 a:link, a:visited {
