@@ -142,7 +142,7 @@ h3 {
 }
 
 .bluefunky {
-  background: -webkit-linear-gradient(45deg, #00d2ff 5%, #3a47d5 100%);
+  background: -webkit-linear-gradient(45deg, #61a6e6 25%, #5661e0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -249,13 +249,15 @@ i {
 }
 
 
-
-
 a:link, a:visited {
     text-decoration: none;
     color: #ededed;
   }
-  
+
+body.light a:link, a:visited {
+    text-decoration: none;
+    color: #1759dd;
+  }
 
 a:hover, a:active {
     text-decoration: none;
@@ -282,10 +284,6 @@ button:hover {
     border: 3px solid snow;
 
    /* transform: rotate(7deg);*/
-}
-
-a:visited {
-    color: #e0e0e0
 }
 
 .caption {
