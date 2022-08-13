@@ -256,7 +256,7 @@ a:link, a:visited {
 
 body.light a:link, a:visited {
     text-decoration: none;
-    color: #1759dd;
+    color: #ebeef5;
   }
 
 a:hover, a:active {
